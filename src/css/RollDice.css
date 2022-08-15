@@ -1,0 +1,22 @@
+.RollDice {
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+
+}
+
+.Button {
+    align-self: center;
+    width: 200px;
+    padding: 1.5em;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    margin-top: 3em;
+}
+
+.Button:hover{
+    background-color: #ffafcc;
+    cursor: pointer
+}

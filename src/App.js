@@ -1,10 +1,15 @@
 import React, { Component } from 'react'
-import WinClick from './WinClick'
+import "./css/App.css"
+import Die from './components/Die'
+import RollDice from './components/RollDice'
 
-class App extends Component{
-  render(){
-    return(
-      <WinClick/>
+
+class App extends Component {
+  render() {
+    return (
+      <div className='App'>
+        <RollDice/>
+      </div>
     )
   }
 }
